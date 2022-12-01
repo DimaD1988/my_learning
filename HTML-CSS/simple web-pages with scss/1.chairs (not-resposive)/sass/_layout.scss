@@ -1,0 +1,30 @@
+@import "colors";
+
+// MAIN
+.container {
+	width: 96rem;
+	margin: 0 auto;
+}
+
+header,
+section {
+	margin-bottom: 9.6rem;
+}
+
+header {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 8rem;
+	margin-top: 6.4rem;
+}
+
+footer {
+	margin-bottom: 4.8rem;
+}
+
+// GRID-HELPER
+.grid-3-cols {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 8rem;
+}

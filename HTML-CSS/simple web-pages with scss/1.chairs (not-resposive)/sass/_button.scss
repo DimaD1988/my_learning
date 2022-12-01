@@ -1,0 +1,26 @@
+@import "colors";
+
+// BUTTON
+.btn {
+	&:link,
+	&:visited {
+		background-color: $color-primary;
+		color: $color-white;
+		display: inline-block;
+		border-radius: 10rem;
+	}
+
+	&:hover,
+	&:active {
+		background-color: $color-secondary;
+	}
+
+	// BUTTON-SIZE
+	&--big {
+		padding: 1.6rem 3.2rem;
+	}
+
+	&--small {
+		padding: 0.8rem 1.2rem;
+	}
+}
