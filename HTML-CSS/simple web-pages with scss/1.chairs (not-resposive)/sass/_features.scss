@@ -1,0 +1,15 @@
+@import "colors";
+
+// FEATURES
+.features {
+	&__icon {
+		stroke: $color-primary;
+		width: 3.2rem;
+		height: 3.2rem;
+		margin-bottom: 2.4rem;
+	}
+
+	&__title {
+		margin-bottom: 1.6rem;
+	}
+}

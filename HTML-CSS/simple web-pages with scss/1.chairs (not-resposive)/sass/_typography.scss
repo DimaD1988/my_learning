@@ -1,0 +1,71 @@
+@import "colors";
+
+// BODY FONTS
+h1 {
+	font-size: 4.4rem;
+	line-height: 1.1;
+	letter-spacing: -0.1rem;
+	text-shadow: 2rem 2rem 0.5rem $color-shadow;
+}
+
+h2 {
+	font-size: 3.6rem;
+	letter-spacing: -0.05rem;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+footer {
+	font-size: 1.4rem;
+	color: $color-grey;
+}
+
+// HEADER
+.header__text {
+	font-size: 1.8rem;
+	line-height: 1.7;
+}
+
+// FEATURES
+.features__title {
+	font-size: 2rem;
+	line-height: 1.7;
+}
+
+// TESTIMONIAL
+.testimonial {
+	&__header {
+		font-size: 2.4rem;
+	}
+
+	&__text {
+		font-style: italic;
+		font-size: 1.8rem;
+		line-height: 1.7;
+	}
+}
+
+// CHAIRS
+.chair__price {
+	font-size: 2rem;
+}
+
+// BUTTON FONTS
+.btn {
+	&:link,
+	&:visited {
+		font-size: 1.8rem;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+
+	&--big {
+		font-weight: 500;
+	}
+
+	&--small {
+		font-size: 1.4rem;
+	}
+}

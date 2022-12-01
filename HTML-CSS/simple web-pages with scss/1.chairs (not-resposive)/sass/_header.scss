@@ -1,0 +1,11 @@
+@import "colors";
+
+// HEADER
+.header {
+	&__text-box {
+		align-self: center;
+	}
+	&__text {
+		margin-bottom: 2.4rem;
+	}
+}

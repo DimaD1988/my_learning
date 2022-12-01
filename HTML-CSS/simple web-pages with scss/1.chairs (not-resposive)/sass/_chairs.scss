@@ -1,0 +1,44 @@
+@import "colors";
+
+// CHAIRS
+.chair {
+	box-shadow: 0rem 2rem 3rem 0rem $color-shadow;
+	border-radius: 1.2rem;
+
+	& img {
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+
+	&__box {
+		padding: 3.2rem;
+	}
+
+	&__details {
+		list-style: none;
+		margin-bottom: 4.8rem;
+
+		& li {
+			display: flex;
+			align-items: center;
+			gap: 1.2rem;
+			margin-bottom: 1.6rem;
+		}
+
+		& li:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	&__icon {
+		stroke: $color-primary;
+		width: 2.4rem;
+		height: 2.4rem;
+	}
+
+	&__price {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
