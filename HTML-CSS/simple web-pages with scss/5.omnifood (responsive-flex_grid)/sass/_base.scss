@@ -1,0 +1,17 @@
+html {
+	font-size: 62.5%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	/* Does NOT work on SAFARI */
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "rubik", sans-serif;
+	line-height: 1;
+	font-weight: 400;
+	color: #555;
+
+	/* Only works if there isnothing absolutely positioned in relation to body  */
+	overflow-x: hidden;
+}

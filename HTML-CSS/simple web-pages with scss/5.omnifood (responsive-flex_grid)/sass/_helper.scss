@@ -1,0 +1,52 @@
+// CONTAINER
+.container {
+	/* 1140px */
+	max-width: 120rem;
+	padding: 0 3.2rem;
+	margin: 0 auto;
+}
+
+// GAP
+$space-1: 9.6rem;
+$space-2: 6.4rem;
+
+// GRID
+.grid {
+	display: grid;
+	row-gap: $space-1;
+	column-gap: $space-2;
+
+	&:not(:last-child) {
+		margin-bottom: $space-1;
+	}
+
+	&--2-cols {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	&--3-cols {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	&--4-cols {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	&--center-v {
+		align-items: center;
+	}
+}
+
+// MARGIN
+.margin-right-sm {
+	margin-right: 1.6rem !important;
+}
+
+.margin-bottom-md {
+	margin-bottom: 4.8rem !important;
+}
+
+// OTHER
+.center-text {
+	text-align: center;
+}
