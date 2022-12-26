@@ -1,0 +1,59 @@
+@import "colors";
+
+.section-hero {
+	background-color: $color-tint-1;
+	padding: 4.8rem 0 9.6rem 0;
+}
+
+// HERO
+.hero {
+	max-width: 130rem;
+	margin: 0 auto;
+	padding: 0 3.2rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 9.6rem;
+	align-items: center;
+
+	&__discription {
+		font-size: 2rem;
+		line-height: 1.6;
+		margin-bottom: 4.8rem;
+	}
+}
+
+// DELIVERED
+.delivered {
+	&__meals {
+		display: flex;
+		align-items: center;
+		gap: 1.6rem;
+		margin-top: 8rem;
+	}
+
+	&__imgs {
+		display: flex;
+
+		& img {
+			height: 4.8rem;
+			width: 4.8rem;
+			border-radius: 50%;
+			margin-right: -1.6rem;
+			border: 3px solid $color-tint-1;
+
+			&:last-child {
+				margin: 0;
+			}
+		}
+	}
+
+	&__text {
+		font-size: 1.8rem;
+		font-weight: 600;
+
+		& span {
+			color: $color-shades-1;
+			font-weight: 700;
+		}
+	}
+}

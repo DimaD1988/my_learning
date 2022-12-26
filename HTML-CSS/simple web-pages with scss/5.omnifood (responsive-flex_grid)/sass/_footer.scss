@@ -1,0 +1,80 @@
+@import "colors";
+
+.footer {
+	padding: 12.8rem 0;
+	border-top: 1px solid $color-grey-8;
+
+	&__logo {
+		display: block;
+		margin-bottom: 2.4rem;
+	}
+
+	&__heading {
+		font-size: 1.8rem;
+		font-weight: 500;
+		margin-bottom: 4rem;
+	}
+
+	&__nav {
+		list-style: none;
+		display: flex;
+		flex-direction: column;
+		gap: 2.4rem;
+	}
+
+	// FOOTER LINKS
+	&__link {
+		&:link,
+		&:visited {
+			text-decoration: none;
+			font-size: 1.6rem;
+			color: $color-grey-5;
+			transition: all 0.3s;
+		}
+
+		&:hover,
+		&:active {
+			color: $color-grey-1;
+		}
+	}
+}
+
+.social {
+	&__links {
+		list-style: none;
+		display: flex;
+		gap: 2.4rem;
+	}
+
+	&__icon {
+		height: 2.4rem;
+		width: 2.4rem;
+	}
+}
+
+// OTHER
+.grid--footer {
+	grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.logo-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.contacts {
+	font-style: normal;
+	font-size: 1.6rem;
+	line-height: 1.6;
+}
+
+.address {
+	margin-bottom: 2.4rem;
+}
+
+.copyright {
+	font-size: 1.4rem;
+	line-height: 1.6;
+	color: $color-grey-5;
+	margin-top: auto;
+}
